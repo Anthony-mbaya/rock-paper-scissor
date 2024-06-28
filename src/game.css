@@ -1,59 +1,72 @@
-*{
-    padding: 0;
-    margin: 0;
+* {
+  padding: 0;
+  margin: 0;
 }
-body{
-    background-color:rgb(145, 145, 145);
-    color: black;
-    font-family:'Courier New', Courier, monospace;
-    
+body {
+  background-color: rgb(6, 29, 60);
+  color: black;
+  font-family: "Courier New", Courier, monospace;
 }
-.container{
-    margin-top: 12em; 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+.container {
+  margin-top: 12em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 h1 {
-    font-size: 3em;
-    margin-bottom: 20px; 
-    text-transform: uppercase; 
-  }
-   
-button {
-      margin: 0 35px;
-      padding: 20px;
-      font-size: 4em;
-      background-color: white;
-      color: burlywood; 
-      border:5px dashed black;
-      border-radius:50%;
-      cursor: pointer;
-      transition: background-color 0.3s ease;
-    }
-    button:hover {
-        background-color: #45a049;
-    }
-h2{
-    padding: 15px;
+  font-size: 3em;
+  margin-bottom: 20px 10px;
+  text-transform: uppercase;
+  text-align: center;
+  width: fit-content;
+  margin: auto;
 }
-.outputs{ 
-    margin: 1.3em;  
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    width: 60%;
-    font-size: 1.2em;
+.btns{
+  display: flex;
+  flex-direction: row;
+  gap: 3em;
+  align-items: center;
+  flex-wrap: wrap;
+  
 }
-span{
-    background-color: black;
-    color: white;
-    padding: 10px;
-    border-radius: 12px ;
+
+button { 
+  padding: 20px;
+  font-size: 4em;
+  background-color: white;
+  color: burlywood; 
+  border-radius: 100%;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin: auto;
 }
-.output1,.output2{ 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+button:hover {
+  background-color: orangered;
 } 
+h2 {
+  padding: 15px;
+}
+.outputs {
+  margin: 1.3em;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: fit-content;
+  font-size: 1.2em;
+}
+span {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  border-radius: 12px;
+}
+.output1,
+.output2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+i {
+  color: green;
+}
